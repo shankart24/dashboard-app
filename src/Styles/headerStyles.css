@@ -1,0 +1,73 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: rebeccapurple; */
+}
+
+.title-and-search {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: seagreen; */
+}
+
+.title-and-search h3 {
+    color: #212121;
+    font-weight: bold;
+}
+
+.search-box {
+    height: 30px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.search-box img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.search-box p {
+    margin-left: 10px;
+    color: gray;
+    font-size: 0.7rem;
+}
+
+.account-info {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: pink; */
+}
+
+.account-info img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.account-info h5 {
+    margin-right: 10px;
+}
+
+.line {
+    height: 60%;
+    border: 1px solid gray;
+    margin: 0 20px 0 10px;
+}
+
+.profile {
+    width: 40px !important;
+    border-radius: 70px !important;
+}

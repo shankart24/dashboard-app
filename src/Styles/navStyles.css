@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    grid-area: nav;
+    /* background-color: skyblue; */
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.menu {
+    margin-top: 1.2rem;
+}
+
+.nav-items img {
+    margin-top: 2rem;
+    width: 20px;
+}
+
+.nav-items img:first-child {
+    width: 30px;
+}
+
+@media screen and (max-width:700px){
+    .nav{
+        display: none;
+    }
+}

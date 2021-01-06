@@ -1,0 +1,167 @@
+.content {
+    grid-area: content;
+    /* background-color: lightslategray; */
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: peachpuff; */
+}
+
+.info-content {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.info-heading {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.data {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: seagreen; */
+}
+
+.data-numbers {
+    display: flex;
+}
+
+.data-numbers>div {
+    margin-right: 30px;
+}
+
+.data-numbers p {
+    font-size: 0.7rem;
+}
+
+.data img {
+    width: 15px;
+    margin-left: 10px;
+}
+
+.progress {
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: skyblue; */
+}
+
+.progress-card {
+    height: 48%;
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.progress-card-header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+.progress-card-header img {
+    width: 15px;
+}
+
+.progress-card-header h6 {
+    font-size: 0.6rem;
+    color: lightslategray;
+}
+
+.progress-card-main {
+    height: 60%;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+
+.progress-card-main h4 {
+    font-size: 0.9rem;
+    color: #212121;
+}
+
+.progress-card-main h5 {
+    font-size: 0.7rem;
+    color: lightslategray;
+}
+
+.progress-info {
+    height: 50%;
+    width: 100%;
+}
+
+.progress-bar {
+    height: 4px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.filled {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.progress-card-footer {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: green; */
+}
+
+
+.progress-card-footer .images {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-card-footer .images img {
+    margin-left: 5px;
+}
+
+.duration {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.duration p {
+    font-size: 0.6rem;
+    padding: 5px 10px;
+}

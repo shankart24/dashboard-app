@@ -1,0 +1,83 @@
+.contact {
+    grid-area: contact;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.contact-header {
+    padding: 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(207, 207, 207);
+    /* background-color: yellow; */
+}
+
+.messages {
+    height: 100%;
+    padding: 10px;
+    /* background-color: red; */
+}
+
+.message-card {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+    background: #F3F6FD;
+    box-shadow: 5px 5px 10px #e2e5eb,
+        -5px -5px 10px #ffffff;
+    /* border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(99, 99, 99, 0.3); */
+    /* background-color: aquamarine; */
+}
+
+.pic {
+    height: 40px;
+    width: 13%;
+    border-radius: 50%;
+    /* background-color: navy; */
+}
+
+.message-card-content {
+    width: 75%;
+    /* background-color: green; */
+}
+
+.message-card-content h5 {
+    margin-left: 15px;
+}
+
+.message-card-content p {
+    font-size: 0.7rem;
+    margin-left: 15px;
+}
+
+.message-card-info {
+    width: 11%;
+    text-align: center;
+    /* background-color: orange; */
+}
+
+.message-card-info p {
+    font-size: 0.6rem;
+    /* color: lightslategray; */
+}
+
+@media screen and (max-width:900px) {
+
+    .contact {
+        width: 90%;
+        padding: 10%;
+    }
+
+    .message-card {
+        margin: 20px 0 5px 0;
+        width: 100%;
+    }
+
+}
