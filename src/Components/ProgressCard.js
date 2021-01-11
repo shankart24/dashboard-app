@@ -8,7 +8,7 @@ const ProgressCard = ({ bgColor, barColor, txtColor, barWidth, timeLeft, date, t
 		<div className="progress-card" style={{ backgroundColor: `${bgColor}` }}>
 			<div className="progress-card-header">
 				<h6>{date}</h6>
-				<img src={vertical} alt="icon" />
+				<img src={vertical} alt="menu-icon" />
 			</div>
 			<div className="progress-card-main">
 				<h4>{title}</h4>
@@ -24,8 +24,8 @@ const ProgressCard = ({ bgColor, barColor, txtColor, barWidth, timeLeft, date, t
 			</div>
 			<div className="progress-card-footer">
 				<div className="images">
-					<img src={m5} width="20" style={{ borderRadius: "50px" }} />
-					<img src={plus} width="15" />
+					<img src={m5} width="20" style={{ borderRadius: "50px" }} alt="icon4" />
+					<img src={plus} width="15" alt="plus-icon" />
 				</div>
 				<div className="duration">
 					<p style={{ color: `${txtColor}` }}>{`${timeLeft} left`}</p>

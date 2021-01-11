@@ -15,8 +15,8 @@ const Contact = () => {
 			<div className="contact-header">
 				<h4>Client Messages</h4>
 				<div className="contact-search">
-					<img src={search} width="15" />
-					<img src={vertical} width="15" />
+					<img src={search} width="15" alt="search-icon" />
+					<img src={vertical} width="15" alt="menu-icon" />
 				</div>
 			</div>
 			<div className="messages">
